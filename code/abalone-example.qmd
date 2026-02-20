@@ -131,7 +131,13 @@ Look at the column names using `colnames(abalone_preds)` in the Console.
 
 What are the column names?  
 
-**insert your notes here**  
+**X is predictor variable values for pH**  
+
+**predicted is the model predictions for change in shell surface area per day**
+
+**st. error: (standard error describing precision in model predictions**
+
+**Conf. low and conf. high(lower and upper bounds of 95% CI around model predictions)**
 
 Look at the actual object (by clicking on it in Environment).  
 
@@ -161,7 +167,7 @@ ggpredict(
 
 How would you interpret this?  
 
-**insert your response here**
+**At pH = 8, the model predicts that abalone change in shell surface area per day should be 5.36 mm^2^ day^-1^(95% CI:[5.08,5.64]**
 
 ### Visualizing model predictions and data
 
