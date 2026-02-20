@@ -93,6 +93,9 @@ plot(abalone_model)    #
 
 ```
 
+**Residuals seems homoscedastic(consistent across values) bases on Residuals vs. Fitted and Scale-location plots.Residuals seem normally distributed based on the QQ plot, the points mostly follow the reference line.There were also no outliers that might influence model estimates or predictions based on Residuals vs. Fitted. **
+
+
 ### Model summary
 
 ```{r abalone-model-summary}
