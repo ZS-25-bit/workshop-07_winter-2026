@@ -107,11 +107,11 @@ summary(abalone_model)
 
 What is the slope estimate (with standard error?)  
 
-**insert your response here**  
+**With each increase in pH, the model predicts an increase of 3.0 +/- in change in shell surface area per day(mm^2^d^-1^)**  
 
 What is the intercept estimate (with standard error?)  
 
-**insert your response here**
+**When pH = 0, the model predicts that abalone change in shell surface area per day is -18.5( Note to self: this is not necessarily biologically realistic, but is something the model generates)**
 
 ### Generating predictions
 
